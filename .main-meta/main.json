@@ -5,7 +5,7 @@
         "metaDataVersion": "1.1.0",
         "name": "com.microchip.mcu8.mplabx.project.pic16f18446-sensor-board-battery-measurement",
         "version": "1.0.1",
-        "displayName": "Sensor Board Battery Measurement",
+        "displayName": "PIC16F18446 Sensor Board Battery Measurement",
         "projectName": "pic16f18446-sensor-board-battery-measurement",
         "shortDescription": "Battery (Vdd) level measurement is performed while the display is turned on. The percentage level of the remaining charge in the batteries is shown as a battery icon with proportional filling in the top-right corner of the display. Additionally, the battery voltage in Volts and percentage graph are displayed.",
         "ide": {
@@ -39,14 +39,15 @@
         "author": "Microchip",
         "subcategories": [
             [
-               "Peripherals", "ADCC"
+               "Peripherals",
+			   "ADCC"
             ]
         ],
         "peripherals": [
             "ADCC"
         ],
         "keywords": [
-            "Battery level"		
+            "Battery Level"		
         ],
 		"additionalData": {
 			"longDescription": {
